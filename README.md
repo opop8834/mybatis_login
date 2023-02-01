@@ -1,6 +1,6 @@
-Maven 
-spring boot 2.7.8
-java 8
+Maven <br/>
+spring boot 2.7.8<br/>
+java 8<br/>
 
 실행방법
 
@@ -59,6 +59,7 @@ select문으로 조회해보고 DB에 없으면 로그인 불가
 <img src ="https://velog.velcdn.com/images/opop8834/post/4e3f2e94-ac3f-43be-bfc0-741c2cf9b8a6/image.png">
 
 비밀번호는 길이에 따라 *로 표시
+<br/>
 <img src ="https://velog.velcdn.com/images/opop8834/post/8f316a59-3285-4784-92a1-0bab9d80b269/image.png">
 
 유저 ID를 백엔드로 통신하면 해당 ID에 따른 추가적인 정보들을 프론트엔드로 가져오고 프로필에 표시
@@ -98,8 +99,9 @@ update문이 실행된다.
 탈퇴도 마찬가지로 현재 비밀번호로 인증해야 탈퇴 권한을 얻게됨
 <br/>
 <img src ="https://velog.velcdn.com/images/opop8834/post/dd19f7d9-0626-44d5-9ca5-1f0a4bd77f11/image.png">
-
+<br/>
 Alert로 탈퇴 유무 확인 후 삭제
+<br/>
 <img src ="https://velog.velcdn.com/images/opop8834/post/bbdf3372-26de-4221-b34a-5825f2017fe4/image.png">
 
 DELETE문 실행
@@ -109,15 +111,15 @@ DELETE문 실행
 <img src="https://velog.velcdn.com/images/opop8834/post/fb5fbb68-fb84-4765-bbf9-be144820b942/image.png">
 
 ### 프로젝트 성과 일지
-1월 26일 my batis 적용해서 db 테이블 user들 출력  <br/>
+1월 26일 : my batis 적용해서 db 테이블 user들 출력  <br/>
     // proxy설정 잊지말자<br/>
-1월 27일 회원가입 버튼 눌러서 user추가<br/>
-1월 30일 로그인하면 기존의 db 데이터와 비교 후 실행<br/>
-1월 31일 localstorage이용하여 자동 로그인 기능추가, 똑같은 id가 db에 있으면 회원가입 안됨, 프로필 수정화면 구현, 비밀번호 변경 기능, 유저탈퇴 기능<br/>
+1월 27일 : 회원가입 버튼 눌러서 user추가<br/>
+1월 30일 : 로그인하면 기존의 db 데이터와 비교 후 실행<br/>
+1월 31일 : localstorage이용하여 자동 로그인 기능추가, 똑같은 id가 db에 있으면 회원가입 안됨, 프로필 수정화면 구현, 비밀번호 변경 기능, 유저탈퇴 기능<br/>
 // 비밀번호 변경하면 바로바로 랜더링 최신화<br/>
 // 비밀번호 변경하려면 비밀번호를 인증하고 수정권한을 얻어야 된다.<br/>
 // 수정할때는 기존의 비밀번호와 같거나 null이면 안된다.<br/>
-2월 1일 수정 탈퇴, 회원가입 할때 자연스럽게 현재 창 나가기, 유저 탈퇴할때도 비밀번호 인증하기<br/>
+2월 1일 : 수정 탈퇴, 회원가입 할때 자연스럽게 현재 창 나가기, 유저 탈퇴할때도 비밀번호 인증하기<br/>
 
 ### 보완할 점
 데이터베이스에 유저의 암호가 그대로 저장되기 때문에 보안쪽에 치명적 약점이 생길 수도 있을 것이다.
