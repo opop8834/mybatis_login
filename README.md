@@ -30,11 +30,11 @@ React, Spring 실행
 >
 insert문 실행
 
-**test 유저 추가**
+test 유저 추가
 
 <img src ="https://velog.velcdn.com/images/opop8834/post/cb7f5fd8-5e79-4f98-bef9-6044789d52fb/image.png">
 
-> **Test 유저 로그인**
+> Test 유저 로그인
 >
 <img src ="https://velog.velcdn.com/images/opop8834/post/e83a33e3-a9c1-4f1b-adbd-d38e2584d754/image.png">
 >
@@ -87,7 +87,7 @@ update문이 실행된다.
 >
 비밀번호도 즉시 길이에 따라서 랜더링된다.
 
-**수정된 모습**
+수정된 모습
 
 <img src ="https://velog.velcdn.com/images/opop8834/post/22c35240-23da-4fbf-b980-6190a38cdaf7/image.png">
 
@@ -102,7 +102,7 @@ Alert로 탈퇴 유무 확인 후 삭제
 >
 DELETE문 실행
 
-**삭제된 모습**
+삭제된 모습
 
 <img src="https://velog.velcdn.com/images/opop8834/post/fb5fbb68-fb84-4765-bbf9-be144820b942/image.png">
 
