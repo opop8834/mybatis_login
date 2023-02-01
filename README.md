@@ -22,6 +22,7 @@ React, Spring 실행
 ><img src ="https://velog.velcdn.com/images/opop8834/post/b2b572b0-683f-498a-8b46-85288ecfa83c/image.png">
 
 test유저 등록
+<br/>
 <img src="https://velog.velcdn.com/images/opop8834/post/55b53d8b-a625-4e59-b726-8c165e9af343/image.png">
 
 먼저 DB에 같은 id가 있는지 파악한 다음, 만약 없으면 
@@ -31,15 +32,15 @@ test유저 등록
 insert문 실행
 
 test 유저 추가
-
+<br/>
 <img src ="https://velog.velcdn.com/images/opop8834/post/cb7f5fd8-5e79-4f98-bef9-6044789d52fb/image.png">
 
 Test 유저 로그인
-
+<br/>
 <img src ="https://velog.velcdn.com/images/opop8834/post/e83a33e3-a9c1-4f1b-adbd-d38e2584d754/image.png">
-
+<br/>
 <img src ="https://velog.velcdn.com/images/opop8834/post/d932af02-5d87-434a-897b-0d65ab9b2dc1/image.png">
-
+<br/>
 select문으로 조회해보고 DB에 없으면 로그인 불가 
 만약 존재하면 로그인 성공
 
@@ -51,7 +52,7 @@ select문으로 조회해보고 DB에 없으면 로그인 불가
 <br/>
 
 <img src ="https://velog.velcdn.com/images/opop8834/post/288e79c8-6e34-4950-a791-095dcc84afad/image.png">
-
+<br/>
 물론 로그아웃 하면 다 삭제됨
 
 ### 프로필 수정 화면
