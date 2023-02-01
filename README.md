@@ -5,13 +5,16 @@ java 8<br/>
 실행방법
 
 백엔드
+<br/>
 main/resources/application.properties 에서 driverClassName, url, username, password 수정
+<br/>
 mysql Table 구축할 때 table쿼리.txt 참고
+<br/>
 
-프론트엔드
-cd frontend
-npm i
-React, Spring 실행
+프론트엔드<br/>
+cd frontend<br/>
+npm i<br/>
+React, Spring 실행<br/>
 
 
 ### 메인화면
