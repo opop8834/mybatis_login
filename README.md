@@ -22,7 +22,7 @@ React, Spring 실행<br/>
 
 ### 회원가입창
 <img src ="https://velog.velcdn.com/images/opop8834/post/2bc175ef-94dd-45c7-a168-f38ce1da4baf/image.png">
-><img src ="https://velog.velcdn.com/images/opop8834/post/b2b572b0-683f-498a-8b46-85288ecfa83c/image.png">
+<img src ="https://velog.velcdn.com/images/opop8834/post/b2b572b0-683f-498a-8b46-85288ecfa83c/image.png">
 
 test유저 등록
 <br/>
