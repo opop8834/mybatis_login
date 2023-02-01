@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.batis.login.mapper.UserDao">
+    <select id="getAll" resultType="com.batis.login.dto.User">
+        SELECT * FROM User
+    </select>
+    <!-- parameterType 에는 구문에 전달될 파라미터의 패키지 경로를 포함한 전체 클래명이나 별칭이 들어간다  -->
+    <insert id="saveUser" parameterType="com.batis.login.dto.User" >
+        INSERT INTO User values(#{id},#{name},#{password})
+    </insert>
+    <!-- 로그인 -->
+    <select id="isLogin" resultType="com.batis.login.dto.User">
+        SELECT id FROM User WHERE id = #{id} and password = #{password}
+    </select>
+    <select id="isExist" resultType="com.batis.login.dto.User">
+        SELECT id FROM User WHERE id = #{id}
+    </select>
+    <select id="userInformation" resultType="com.batis.login.dto.User">
+        SELECT * FROM User WHERE id = #{id}
+    </select>
+    <update id="changePW" parameterType="com.batis.login.dto.User" >
+        UPDATE User SET password = #{password} WHERE id = #{id}
+    </update>
+    <delete id="delete" parameterType="com.batis.login.dto.User">
+        DELETE FROM User WHERE id=#{id}
+    </delete>
+
+</mapper>
